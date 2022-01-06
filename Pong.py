@@ -5,7 +5,7 @@ import random
 
 wn = turtle.Screen()
 wn.title("Pong by Davis Burrill")
-wn.bgcolor("blue")
+wn.bgcolor("green")
 wn.setup(width=1000, height=750)
 wn.tracer(0)
 
