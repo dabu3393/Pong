@@ -73,7 +73,8 @@ pen.write("0", align="center", font=("Courier", 72, "bold"))
 pen.goto(0, -325)
 pen.write("First to 3 wins!", align="center", font=("Courier", 24, "normal"))
 
-
+#this is a test
+test = "Hi there"
 
 # Function
 
