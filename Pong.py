@@ -101,25 +101,6 @@ def paddle_b_down_start():
 def paddle_b_down_end():
     paddle_b.move_down = False
 
-# def paddle_a_up():
-#     y = paddle_a.ycor()
-#     y += 20
-#     paddle_a.sety(y)
-#
-# def paddle_a_down():
-#     y = paddle_a.ycor()
-#     y -= 20
-#     paddle_a.sety(y)
-#
-# def paddle_b_up():
-#     y = paddle_b.ycor()
-#     y += 20
-#     paddle_b.sety(y)
-#
-# def paddle_b_down():
-#     y = paddle_b.ycor()
-#     y -= 20
-#     paddle_b.sety(y)
 
 def writing():
     pen.goto(-400, -325)
