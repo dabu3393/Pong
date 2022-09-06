@@ -212,70 +212,70 @@ while game_over == False:
 
     if ball.xcor() > 440 and ball.xcor() < 450 and (ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() + 27):
         ball.setx(440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(4,5)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() > 440 and ball.xcor() < 450 and (ball.ycor() < paddle_b.ycor() + 27 and ball.ycor() > paddle_b.ycor() + 4):
         ball.setx(440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(1,3)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() > 440 and ball.xcor() < 450 and (ball.ycor() < paddle_b.ycor() + 4 and ball.ycor() > paddle_b.ycor() - 4):
         ball.setx(440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(-1,1)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() > 440 and ball.xcor() < 450 and (ball.ycor() < paddle_b.ycor() - 4 and ball.ycor() > paddle_b.ycor() - 27):
         ball.setx(440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(-3,-1)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() > 440 and ball.xcor() < 450 and (ball.ycor() < paddle_b.ycor() - 27 and ball.ycor() > paddle_b.ycor() - 50):
         ball.setx(440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(-5,-4)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() < -440 and ball.xcor() > -450 and (ball.ycor() < paddle_a.ycor() + 50 and ball.ycor() > paddle_a.ycor() + 27):
         ball.setx(-440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(4,5)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() < -440 and ball.xcor() > -450 and (ball.ycor() < paddle_a.ycor() + 27 and ball.ycor() > paddle_a.ycor() + 4):
         ball.setx(-440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(1,3)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() < -440 and ball.xcor() > -450 and (ball.ycor() < paddle_a.ycor() + 4 and ball.ycor() > paddle_a.ycor() - 4):
         ball.setx(-440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(-1,1)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() < -440 and ball.xcor() > -450 and (ball.ycor() < paddle_a.ycor() - 4 and ball.ycor() > paddle_a.ycor() - 27):
         ball.setx(-440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(-3,-1)
         os.system("afplay hit.wav&")
         print(ball.dy)
 
     if ball.xcor() < -440 and ball.xcor() > -450 and (ball.ycor() < paddle_a.ycor() - 27 and ball.ycor() > paddle_a.ycor() - 50):
         ball.setx(-440)
-        ball.dx *= -1.15
+        ball.dx *= -1.24
         ball.dy = random.randint(-5,-4)
         os.system("afplay hit.wav&")
         print(ball.dy)
